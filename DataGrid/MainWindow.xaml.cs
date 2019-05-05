@@ -23,7 +23,7 @@ namespace DataGrid
 		public MainWindow()
 		{
 			InitializeComponent();
-			DataContext = Employee.GetEmployees();
+			dataGrid.DataContext = Employee.GetEmployees();
 		}
 	}
 }
